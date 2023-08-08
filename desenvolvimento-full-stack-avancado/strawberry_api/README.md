@@ -1,5 +1,7 @@
 # Minha API em GraphQL
 
+push test
+
 Este pequeno projeto faz parte do material diático da Disciplina **Desenvolvimento Full Stack Avançado** 
 
 O objetivo aqui é apresetar uma API emplementada seguindo o padrão definido para permitir o GraphQL.
