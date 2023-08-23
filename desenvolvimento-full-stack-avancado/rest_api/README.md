@@ -26,6 +26,14 @@ Após clonar o repositório, é necessário ir ao diretório raiz, pelo terminal
 Este comando instala as dependências/bibliotecas, descritas no arquivo `requirements.txt`.
 
 ---
+### Executando o locust
+
+```
+(env)$ pip install locust
+(env)$ locust -f test/load_test/load_test.py
+```
+
+---
 ### Executando o servidor
 
 
@@ -36,7 +44,7 @@ Para executar a API  basta executar:
 ```
 
 Em modo de desenvolvimento é recomendado executar utilizando o parâmetro reload, que reiniciará o servidor
-automaticamente após uma mudança no código fonte. 
+automaticamente após uma mudança no código fonte.
 
 ```
 (env)$ flask run --host 0.0.0.0 --port 5000 --reload
