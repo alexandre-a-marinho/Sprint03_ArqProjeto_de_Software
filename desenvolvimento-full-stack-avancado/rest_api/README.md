@@ -32,6 +32,9 @@ Este comando instala as dependências/bibliotecas, descritas no arquivo `require
 (env)$ pip install locust
 (env)$ locust -f test/load_test/load_test.py
 ```
+Acessar o servidor locust na URL: http://localhost:8089/
+
+No campo 'host', usar o endereço do servidor da API sendo testada, por exemplo neste caso: http://localhost:5000/
 
 ---
 ### Executando o servidor
